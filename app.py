@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=AIzaSyDcI1qiznYrACUQOdrEenwnZwhIirpLtkI)
+genai.configure(api_key=AIzaSyA6ZJzBKuKBeJwHukjFxOPlI4-fjut2YW4)
 
 st.set_page_config(page_title="Smartest AI Nutrition Assistant", layout="wide")
 
